@@ -16,7 +16,6 @@ const Reset = () => {
     validateOnBlur: false,
     validateOnChange: false,
     onSubmit: values => {
-      console.log(values)
       navigate('/password')
     },
   });
